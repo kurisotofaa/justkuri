@@ -73,46 +73,55 @@
     </section>
 
     <section class="px-4 md:px-8 max-w-6xl mx-auto w-full" id="angebot">
-        <div class="text-center mb-12">
-            <h2 class="text-3xl font-light tracking-tight">Lokaler Support für Lübeck</h2>
-            <p class="text-zinc-500 mt-2">Professionelle Tiktoks für dein Unternehmen</p>
+    <div class="text-center mb-12">
+        <h2 class="text-3xl font-light tracking-tight">Lokaler Support für Lübeck</h2>
+        <p class="text-zinc-500 mt-2">Ich baue aktuell mein Portfolio auf – Sichere dir professionelle TikToks für dein Unternehmen.</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <div class="bg-zinc-900 text-white p-8 rounded-2xl flex flex-col items-center text-center shadow-2xl scale-105 relative border-2 border-secondary">
+            <div class="absolute -top-4 bg-secondary text-white text-[10px] font-bold px-4 py-1 rounded-full uppercase tracking-tighter">Limitiert</div>
+            <span class="text-[10px] font-bold uppercase tracking-widest text-zinc-400 mb-4">Portfolio Phase</span>
+            <h4 class="text-xl font-bold mb-2">1 Test-TikTok</h4>
+            <div class="text-5xl font-bold my-4">Gratis</div>
+            <p class="text-sm text-zinc-400 mb-8 flex-grow">
+                Überzeuge dich von der Qualität. Ich erstelle ein Video für dein Business – komplett kostenlos gegen eine ehrliche Bewertung.
+            </p>
+            <button onclick="selectShorts('1x Gratis Test-TikTok')" class="w-full py-4 bg-white text-black rounded-xl font-bold hover:bg-zinc-200 transition-all active:scale-95 shadow-lg">
+                Jetzt kostenlos starten
+            </button>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-            
-            <div class="bg-white border border-zinc-200 p-8 rounded-2xl flex flex-col items-center text-center">
-                <span class="text-[10px] font-bold uppercase tracking-widest text-zinc-400 mb-4">Vorschau</span>
-                <h4 class="text-xl font-bold mb-2">1 Test-Tiktok</h4>
-                <div class="text-4xl font-bold mb-6">Per Anfrage</div>
-                <p class="text-sm text-zinc-500 mb-8 flex-grow">Überzeuge dich von der Qualität – komplett ohne Risiko.</p>
-                <button onclick="selectShorts('1x Gratis Test')" class="w-full py-3 border border-zinc-900 rounded-xl font-medium hover:bg-zinc-50 transition-colors">Kostenlos starten</button>
+        <div class="bg-white border border-zinc-200 p-8 rounded-2xl flex flex-col items-center text-center opacity-60">
+            <span class="text-[10px] font-bold uppercase tracking-widest text-zinc-400 mb-4">Einzelabnahme</span>
+            <h4 class="text-xl font-bold mb-2">1 TikTok</h4>
+            <div class="flex flex-col mb-6">
+                <span class="text-zinc-400 line-through text-sm">60€ pro Stück</span>
+                <span class="text-4xl font-bold text-zinc-300">50€</span>
             </div>
-
-            <div class="bg-white border border-zinc-200 p-8 rounded-2xl flex flex-col items-center text-center">
-                <span class="text-[10px] font-bold uppercase tracking-widest text-zinc-400 mb-4">Einzelabnahme</span>
-                <h4 class="text-xl font-bold mb-2">1 Tiktok</h4>
-                <div class="flex flex-col mb-6">
-                    <span class="text-zinc-400 line-through text-sm">60€ pro Stück</span>
-                    <span class="text-4xl font-bold">50€ <span class="text-sm font-normal text-zinc-500">/ Stück</span></span>
-                </div>
-                <p class="text-sm text-zinc-500 mb-8 flex-grow">Perfekt für kleine Unternehmen die eine online Prösenz aufbauen wollen.</p>
-                <button onclick="selectShorts('1-2 Shorts Paket')" class="w-full py-3 border border-zinc-900 rounded-xl font-medium hover:bg-zinc-50 transition-colors">Anfragen</button>
-            </div>
-
-            <div class="bg-zinc-900 text-white p-8 rounded-2xl flex flex-col items-center text-center shadow-2xl scale-105 relative border-2 border-secondary">
-                <div class="absolute -top-4 bg-secondary text-white text-[10px] font-bold px-4 py-1 rounded-full uppercase tracking-tighter">Bester Deal</div>
-                <span class="text-[10px] font-bold uppercase tracking-widest text-zinc-400 mb-4">Content Flat</span>
-                <h4 class="text-xl font-bold mb-2">4er Bundle</h4>
-                <div class="flex flex-col mb-6">
-                    <span class="text-zinc-500 line-through text-sm">Statt 200€</span>
-                    <span class="text-5xl font-bold text-white">100€</span>
-                </div>
-                <p class="text-sm text-zinc-400 mb-8 flex-grow">Komplette Monats-Coverage (1 Video pro Woche). Maximale Reichweite zum halben Preis.</p>
-                <button onclick="selectShorts('4er Bundle (100€)')" class="w-full py-4 bg-white text-black rounded-xl font-bold hover:bg-zinc-200 transition-all active:scale-95 shadow-lg">Jetzt Bundle sichern</button>
-            </div>
-
+            <p class="text-sm text-zinc-500 mb-8 flex-grow">Perfekt für kleine Unternehmen, die eine online Präsenz aufbauen wollen.</p>
+            <span class="text-xs font-medium text-zinc-400 border border-zinc-200 px-3 py-1 rounded-full">Bald verfügbar</span>
         </div>
-    </section>
+
+        <div class="bg-white border border-zinc-200 p-8 rounded-2xl flex flex-col items-center text-center opacity-60">
+            <span class="text-[10px] font-bold uppercase tracking-widest text-zinc-400 mb-4">Content Flat</span>
+            <h4 class="text-xl font-bold mb-2">4er Bundle</h4>
+            <div class="flex flex-col mb-6">
+                <span class="text-zinc-400 line-through text-sm">Statt 200€</span>
+                <span class="text-4xl font-bold text-zinc-300">100€</span>
+            </div>
+            <p class="text-sm text-zinc-500 mb-8 flex-grow">Komplette Monats-Coverage (1 Video pro Woche). Maximale Reichweite zum halben Preis.</p>
+            <span class="text-xs font-medium text-zinc-400 border border-zinc-200 px-3 py-1 rounded-full">Bald verfügbar</span>
+        </div>
+
+    </div>
+
+    <p class="text-[10px] text-zinc-400 text-center mt-8 uppercase tracking-widest">
+        *Aktuelle Projekte dienen dem Aufbau eines Portfolios. Offizielle Buchungen erst nach Gewerbeanmeldung möglich.
+    </p>
+</section>
+
 
     <section class="px-4 md:px-8 max-w-2xl mx-auto w-full" id="kontakt">
         <div class="bg-white rounded-3xl p-8 md:p-12 border border-zinc-100 shadow-sm">
